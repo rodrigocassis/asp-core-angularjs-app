@@ -25,7 +25,6 @@
       "NetCoreSPA.Web/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.5",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.2",

@@ -3,6 +3,6 @@
   <PropertyGroup>
     <ShowAllFiles>false</ShowAllFiles>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
-    <NameOfLastUsedPublishProfile>AngularApp</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>asp-core-angularjs-app</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

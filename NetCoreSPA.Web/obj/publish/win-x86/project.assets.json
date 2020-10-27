@@ -21065,7 +21065,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.6",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.5",
       "Microsoft.NETCore.App >= 2.0.9",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.2",
@@ -21084,11 +21083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\u0155902\\Downloads\\NetCoreSPA\\NetCore-SPA\\NetCoreSPA.Web\\NetCoreSPA.Web.csproj",
-      "projectName": "NetCoreSPA.Web",
-      "projectPath": "C:\\Users\\u0155902\\Downloads\\NetCoreSPA\\NetCore-SPA\\NetCoreSPA.Web\\NetCoreSPA.Web.csproj",
+      "projectUniqueName": "C:\\study\\asp-core-angularjs-app\\NetCoreSPA.Web\\asp-core-angularjs-app.csproj",
+      "projectName": "asp-core-angularjs-app",
+      "projectPath": "C:\\study\\asp-core-angularjs-app\\NetCoreSPA.Web\\asp-core-angularjs-app.csproj",
       "packagesPath": "C:\\Users\\u0155902\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\u0155902\\Downloads\\NetCoreSPA\\NetCore-SPA\\NetCoreSPA.Web\\obj\\publish\\win-x86\\",
+      "outputPath": "C:\\study\\asp-core-angularjs-app\\NetCoreSPA.Web\\obj\\publish\\win-x86\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21121,10 +21120,6 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.6, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[2.0.2, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer.Design": {
             "target": "Package",

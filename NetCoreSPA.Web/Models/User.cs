@@ -9,5 +9,14 @@ namespace NetCoreSPA.Web.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
+        public String Birth { get; set; }
+        public String State { get; set; }
+
+        public String Country { get; set; }
+
+
+
+
+
     }
 }

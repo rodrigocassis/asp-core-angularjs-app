@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2UWsoj/szQljlLvXiDL8/23z615Cnot1cUAruhPX7vTYJwhBlhqUA6OiBNM6v36APP4aYHkxIB6rNXZwQ8Nl7g==",
+  "dgSpecHash": "nJYhQS9mnhoARsRUms8WhAQ6pZSoU1ROUctbh0mSXdqGBpvF64U9WtfcqhWLh9p+t97LTi5rbEBH2DpcbghL2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\u0155902\\Downloads\\NetCoreSPA\\NetCore-SPA\\NetCoreSPA.Web\\NetCoreSPA.Web.csproj",
+  "projectFilePath": "C:\\study\\asp-core-angularjs-app\\NetCoreSPA.Web\\asp-core-angularjs-app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\u0155902\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\u0155902\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",

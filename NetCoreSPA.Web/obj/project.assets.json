@@ -14155,7 +14155,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.6",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.5",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.2",
@@ -14174,9 +14173,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\study\\asp-core-angularjs-app\\NetCoreSPA.Web\\NetCoreSPA.Web.csproj",
-      "projectName": "NetCoreSPA.Web",
-      "projectPath": "C:\\study\\asp-core-angularjs-app\\NetCoreSPA.Web\\NetCoreSPA.Web.csproj",
+      "projectUniqueName": "C:\\study\\asp-core-angularjs-app\\NetCoreSPA.Web\\asp-core-angularjs-app.csproj",
+      "projectName": "asp-core-angularjs-app",
+      "projectPath": "C:\\study\\asp-core-angularjs-app\\NetCoreSPA.Web\\asp-core-angularjs-app.csproj",
       "packagesPath": "C:\\Users\\u0155902\\.nuget\\packages\\",
       "outputPath": "C:\\study\\asp-core-angularjs-app\\NetCoreSPA.Web\\obj\\",
       "projectStyle": "PackageReference",
@@ -14212,15 +14211,12 @@
             "target": "Package",
             "version": "[2.0.6, )"
           },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[2.0.2, )"
-          },
           "Microsoft.EntityFrameworkCore.SqlServer.Design": {
             "target": "Package",
             "version": "[1.1.5, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
@@ -14255,10 +14251,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -14267,7 +14269,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EntityFramework 6.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'EntityFramework 6.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
@@ -14277,7 +14279,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySql.Data.Entities 6.8.3' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySql.Data.Entities 6.8.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "MySql.Data.Entities",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
@@ -14287,7 +14289,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySql.Data.Entity 6.10.9' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySql.Data.Entity 6.10.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "MySql.Data.Entity",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
@@ -14297,7 +14299,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySql.Data.EntityFramework 8.0.22' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySql.Data.EntityFramework 8.0.22' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "MySql.Data.EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
@@ -14307,7 +14309,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySql.Data.EntityFrameworkCore.Design 8.0.19' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySql.Data.EntityFrameworkCore.Design 8.0.19' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "MySql.Data.EntityFrameworkCore.Design",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"

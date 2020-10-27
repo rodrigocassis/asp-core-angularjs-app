@@ -122,6 +122,9 @@ namespace NetCoreSPA.Web.Controllers
                             entityUpdate.Name = model.Name;
                             entityUpdate.Phone = model.Phone;
                             entityUpdate.Email = model.Email;
+                            entityUpdate.Birth = model.Birth;
+                            entityUpdate.State = model.State;
+                            entityUpdate.Country = model.Country;
 
                             await _ctx.SaveChangesAsync();
                         }

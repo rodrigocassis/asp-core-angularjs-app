@@ -12,14 +12,14 @@ templatingApp.config(['$locationProvider', '$stateProvider', '$urlRouterProvider
         $compileProvider.debugInfoEnabled(false);
 
         $stateProvider
-            .state('home', {
+            .state('user', {
                 url: '/',
-                templateUrl: './views/home/home.html',
+                templateUrl: './views/home/user.html',
                 controller: 'HomeController'
             })
             .state('dashboard', {
                 url: '/dashboard',
-                templateUrl: './views/home/home.html',
+                templateUrl: './views/home/user.html',
                 controller: 'HomeController'
             })
             .state('user', {
@@ -33,5 +33,5 @@ templatingApp.config(['$locationProvider', '$stateProvider', '$urlRouterProvider
                 controller: 'AboutController'
             });
 
-        $urlRouterProvider.otherwise('/home');
+        $urlRouterProvider.otherwise('/user');
     }]); 

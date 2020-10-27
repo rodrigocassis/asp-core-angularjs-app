@@ -1030,6 +1030,10 @@ textarea.form-control {
 .table-striped > tfoot > tr > td {
   padding: 15px 8px; }
 
+.table-striped{
+    background-color: #68B3C8;
+}
+
 /*      Checkbox and radio         */
 .checkbox,
 .radio {
